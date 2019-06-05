@@ -40,7 +40,7 @@ This could not be uploaded on the repository due to its large size. But it is an
 $ python pixel-level.py
 ```
 This generates individual annotation masks for each class or instance and stores it in ``individual_masks`` folder. The results of this step can already be found in the repository. 
-The final required output in json format of per-instance pixel-level accuracy can be found in ``output.json`` which is sorted by descended order of accuracies. 
+The final required output in json format of per-instance pixel-level accuracy can be found in ``output.json`` which is sorted by descending order of accuracies. 
 
 ## Methodology
 ### Instance Masks
