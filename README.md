@@ -3,7 +3,7 @@
 Considering an open-source Mask R-CNN implementation, which is a deep multitask learning solution for object detection, instance segmentation and keypoint annotations. The current task involves given an annotated instance segmentation image and the original image, the pixel level accuracy of each instance/class from the image is calculated. This implementation does not contain any fine-tuning to support extra classes than what the model has been trained for initially.
 
 ## Implementation
-This implementation uses matterport's Mask_RCNN API. 
+This implementation uses ``matterport's Mask_RCNN API``. 
 ### Installation
 Clone the API's repository with
 ```
