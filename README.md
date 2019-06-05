@@ -63,7 +63,7 @@ This is done by:
 3. For each annotation, the instance which has the biggest overlap is the most probable match. So the largest IoU value is obtained.
 
 ### Pixel Accuracy
-Now that the correct match of instance and annotation is obtained, the overall accuracy is obtained. 
+Now that the correct match of instance and annotation is obtained, the overall accuracy is calculated. 
 1. Accuracy is defined as accuracy = TP+TN / TP+TN+FP+FN. The problem here is, the True Negative (TN) is extremely high when you consider the whole image, and as the image becomes smaller, very high accuracies are reported, but they do not correspond to the model's capability accurately. 
 2. To reduce the effect of unnecessary, trivial true negatives, a smaller bounding box is considered instead of the entire image. 
 3. This bounding box is obtained as essentially the union of both the annotation and instance mask bounding boxes. 
