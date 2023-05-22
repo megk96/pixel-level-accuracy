@@ -32,7 +32,7 @@ $ python3 -m pip install jupyter
 ### Running Locally
 The main result from the API is obtained from the ``save-instances.ipynb``. 
 ```
-Rub all blocks of save-instances.ipynb. 
+Run all blocks of save-instances.ipynb. 
 ```
 This generates the file ``instanses.json`` in the pwd. 
 This could not be uploaded on the repository due to its large size. But it is an essential requirement before running the main code.
